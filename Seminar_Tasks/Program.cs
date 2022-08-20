@@ -15,7 +15,7 @@ Console.WriteLine($"Squere of {number} via math is {square_via_math}");
 /*
 2.	Задача-2. Напишите программу, которая на вход принимает два числа 
     и проверяет, является ли первое число квадратом второго
-*/
+---------------------------------------------------------------------
 Console.WriteLine("Input any two numbers.");
 
 Console.Write("First: ");
@@ -31,4 +31,24 @@ else
 {
     Console.WriteLine($"First number {number1} is not a square of the second {number2}");
 }
+*/
+
+
+/* 3.	Задача-3. Напишите программу, которая на вход принимает одно число (N), 
+    а на выходе показывает все целые числа в промежутке от -N до N.
+-------------------------------------------------------------------------------
+*/
+Console.Write("Input any number: ");
+double number = Convert.ToDouble(Console.ReadLine().Replace(".", ","));
+
+int number_nearest_int = (int)number;
+int ind = number_nearest_int * (-1);
+
+Console.WriteLine("-------------------");
+while (ind < number_nearest_int + 1)
+{
+    Console.WriteLine($"int number №{number_nearest_int + ind + 1} => {ind}");
+    ind++;
+}
+
 
