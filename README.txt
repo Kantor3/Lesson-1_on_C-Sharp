@@ -23,6 +23,8 @@ Lecture_Task-1
 
 Лекция. Задачи
 Lecture_Tasks
+---
+
 
 Семинар. Задача-1:
 Seminar_Task-1
@@ -30,6 +32,8 @@ Seminar_Task-1
 
 Семинар. Задачи
 Seminar_Tasks
+---
+
 
 Домашнее задание. Задача-1:
 Homework_Task-1
