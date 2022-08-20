@@ -21,13 +21,22 @@ git commit -m "First commit"
 Lecture_Task-1
 ...
 
-Семинара. Задача-1:
+Лекция. Задачи
+Lecture_Tasks
+
+Семинар. Задача-1:
 Seminar_Task-1
 ...
+
+Семинар. Задачи
+Seminar_Tasks
 
 Домашнее задание. Задача-1:
 Homework_Task-1
 ...
+
+Домашнее задание. Задачи:
+Homework_Tasks
 
 
 6 Text of commits of the Tasks:
