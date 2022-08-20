@@ -54,14 +54,10 @@ while (ind < number_nearest_int + 1)
 /* 4.	Задача-4. Напишите программу, которая принимает на вход трёхзначное число 
         и на выходе показывает последнюю цифру этого числа.
 ---------------------------------------------------------------------------------
-*/
 Console.Write("Input three digit-number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int result = number  % 10;
 
 Console.WriteLine($"The last digit of the number {number} is {result}");
-
-
-
-
+*/
