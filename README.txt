@@ -28,3 +28,10 @@ Seminar_Task-1
 Домашнее задание. Задача-1:
 Homework_Task-1
 ...
+
+
+6 Text of commits of the Tasks:
+sulution of task-1 of the seminar
+
+
+7. 
