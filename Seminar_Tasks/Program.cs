@@ -35,9 +35,8 @@ else
 
 
 /* 3.	Задача-3. Напишите программу, которая на вход принимает одно число (N), 
-    а на выходе показывает все целые числа в промежутке от -N до N.
+        а на выходе показывает все целые числа в промежутке от -N до N.
 -------------------------------------------------------------------------------
-*/
 Console.Write("Input any number: ");
 double number = Convert.ToDouble(Console.ReadLine().Replace(".", ","));
 
@@ -50,5 +49,19 @@ while (ind < number_nearest_int + 1)
     Console.WriteLine($"int number №{number_nearest_int + ind + 1} => {ind}");
     ind++;
 }
+*/
+
+/* 4.	Задача-4. Напишите программу, которая принимает на вход трёхзначное число 
+        и на выходе показывает последнюю цифру этого числа.
+---------------------------------------------------------------------------------
+*/
+Console.Write("Input three digit-number: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+int result = number  % 10;
+
+Console.WriteLine($"The last digit of the number {number} is {result}");
+
+
 
 
