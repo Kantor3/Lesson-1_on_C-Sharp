@@ -2,6 +2,7 @@
 1.	Задача 2: Напишите программу, которая на вход принимает 
     два числа и выдаёт, какое число большее, а какое меньшее.
 -------------------------------------------------------------
+*/
 Console.WriteLine("Input any two number:");
 Console.WriteLine("---");
 
@@ -18,7 +19,6 @@ else
 {
     Console.WriteLine($"Second number = {number_2} > First = {number_1}");
 }
-*/
 
 
 /*
@@ -26,6 +26,7 @@ else
     три числа и выдаёт максимальное из этих чисел.
     расширил до введения заданного количества любых чисел (но не более 10)
 --------------------------------------------------------------------------
+*/
 Console.Write("Input the number of numbers to compare, but no more than 10: ");
 int count_max   = 10;
 int count       = Math.Min(count_max, Convert.ToInt32(Console.ReadLine()));
@@ -46,7 +47,6 @@ foreach (var el in numsList)
 Console.WriteLine("Numbers are entered:");
 numsList.ForEach(i => { Console.Write($"{i}; "); });
 Console.WriteLine($"The maximum of them => {number_max}");
-*/
 
 
 /*
@@ -54,7 +54,6 @@ Console.WriteLine($"The maximum of them => {number_max}");
     и выдаёт, является ли число чётным (делится ли оно на два без остатка)
 --------------------------------------------------------------------------
 */
-/*
 Console.WriteLine("Enter any integer:");
 Console.WriteLine("---");
 
@@ -68,7 +67,7 @@ else
 {
     Console.WriteLine($"The number {number} - не является четным");
 }
-*/
+
 
 
 /*
@@ -86,7 +85,3 @@ Console.WriteLine($"Все четные числа от 1 до {number}:");
 for (int i = 1; i < number+1; i++)
     if ((i) % 2 == 0)
         Console.Write($"{i}, ");
-
-
-
-
