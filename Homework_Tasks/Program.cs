@@ -54,6 +54,7 @@ Console.WriteLine($"The maximum of them => {number_max}");
     и выдаёт, является ли число чётным (делится ли оно на два без остатка)
 --------------------------------------------------------------------------
 */
+/*
 Console.WriteLine("Enter any integer:");
 Console.WriteLine("---");
 
@@ -67,5 +68,25 @@ else
 {
     Console.WriteLine($"The number {number} - не является четным");
 }
+*/
+
+
+/*
+4.	Задача 8: Напишите программу, которая на вход принимает число (N), 
+    а на выходе показывает все чётные числа от 1 до N.
+--------------------------------------------------------------------------
+*/
+Console.WriteLine("Enter any integer:");
+Console.WriteLine("---");
+
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("---");
+Console.WriteLine($"Все четные числа от 1 до {number}:");
+
+for (int i = 1; i < number+1; i++)
+    if ((i) % 2 == 0)
+        Console.Write($"{i}, ");
+
+
 
 
