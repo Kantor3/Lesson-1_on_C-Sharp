@@ -26,7 +26,6 @@ else
     три числа и выдаёт максимальное из этих чисел.
     расширил до введения заданного количества любых чисел (но не более 10)
 --------------------------------------------------------------------------
-*/
 Console.Write("Input the number of numbers to compare, but no more than 10: ");
 int count_max   = 10;
 int count       = Math.Min(count_max, Convert.ToInt32(Console.ReadLine()));
@@ -47,6 +46,26 @@ foreach (var el in numsList)
 Console.WriteLine("Numbers are entered:");
 numsList.ForEach(i => { Console.Write($"{i}; "); });
 Console.WriteLine($"The maximum of them => {number_max}");
+*/
 
+
+/*
+3.	Задача 6: Напишите программу, которая на вход принимает ЦЕЛОЕ число 
+    и выдаёт, является ли число чётным (делится ли оно на два без остатка)
+--------------------------------------------------------------------------
+*/
+Console.WriteLine("Enter any integer:");
+Console.WriteLine("---");
+
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number % 2 == 0)
+{
+    Console.WriteLine($"The number {number} - Четное");
+}
+else
+{
+    Console.WriteLine($"The number {number} - не является четным");
+}
 
 
